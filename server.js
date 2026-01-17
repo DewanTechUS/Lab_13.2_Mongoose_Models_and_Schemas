@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true })); // to parse URL-encoded bodies
 console.log("JSON parsing middleware set up");
 
 app.get("/", (req, res) => {
-  res.send("Digital Bookshelf API is running");
+  res.send("Lab2 Dewan Mahmud's Digital Bookshelf API is running");
 });
 
 // Routes
